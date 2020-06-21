@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/act" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n Android Application Project"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/dark_gray"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coding Club"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#91B68B"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n Coding club application can be used by the \n \n leaders of the club to manage the club members.\n \n
+ It could have future enhancements such as \n \n managing club activities and enables the \n \n members to sign-in to the application and to \n \n have their own space for sharing knowledge.
+\n \n This Application is developed by:\n \n Roaa Hamed Alotaibi \n \n To satisfy project specifications of Android Application Course. \n \n Supervisor: Dr. Haram Hussin \n \n April 2020 "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+</LinearLayout>

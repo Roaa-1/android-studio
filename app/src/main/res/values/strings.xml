@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Coding Club</string>
+    <string name="welcome">printf(\"Welcome\");</string>
+    <string name="title_activity_update">UpdateActivity</string>
+</resources>
